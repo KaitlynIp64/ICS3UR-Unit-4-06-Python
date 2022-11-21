@@ -2,7 +2,7 @@
 
 # Created by: Kaitlyn Ip
 # Created on: Nov 2022
-# This program prints all possible RGB combinati
+# This program prints all possible RGB combination
 
 def main():
     # this function uses a nested loop
