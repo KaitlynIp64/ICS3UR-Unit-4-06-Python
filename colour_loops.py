@@ -11,13 +11,15 @@ def main():
     red = 0
     green = 0
     blue = 0
-    for red in range(0, 255):
-        for green in range(0, 255):
-            for blue in range(0, 255):
+    for red in range(0, 256):
+        for green in range(0, 256):
+            for blue in range(0, 256):
                 print("RGB({0},{1},{2})".format(red, green, blue))
-                blue += 1
+            blue += 1
             green += 1
         red += 1
+
+        print("\nDone.")
 
 
 if __name__ == "__main__":
